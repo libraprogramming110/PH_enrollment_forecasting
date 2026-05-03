@@ -1,0 +1,27 @@
+feature,importance
+prev_total_students,0.9060522516159741
+prev_total_hs,0.0661602779676064
+prev_total_elementary,0.025968815013160177
+region_Region IV-A - CALABARZON,0.0011999706090010031
+sector_SUC-LUC,0.0003676485734206079
+ay_start,8.332311090271877e-05
+sector_Private,6.985077222282199e-05
+prev_total_shs,5.737720370614709e-05
+shs_available,2.2364650534089848e-05
+region_NCR - National Capital Region,8.770999210390111e-06
+sector_Public,1.8433226266774082e-06
+region_BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,1.4761900611682944e-06
+region_Region VII - Central Visayas,1.2624266078567952e-06
+region_Region I - Ilocos Region,1.2428321369852572e-06
+region_Region II - Cagayan Valley,7.1026030776357e-07
+region_CARAGA - CARAGA,6.788153366530863e-07
+region_Region V - Bicol Region,5.550346712049009e-07
+region_Region III - Central Luzon,5.256309063631871e-07
+region_Region XI - Davao Region,3.9194076089469126e-07
+region_Region VI - Western Visayas,3.2454731657456006e-07
+region_Region X - Northern Mindanao,2.699802398328789e-07
+region_Region IX - Zamboanga Peninsula,6.850328945256032e-08
+region_CAR - Cordillera Administrative Region,0.0
+region_Region IV-B - MIMAROPA,0.0
+region_Region VIII - Eastern Visayas,0.0
+region_Region XII - Soccsksargen,0.0

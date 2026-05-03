@@ -1,0 +1,4 @@
+Model,MAE,RMSE,MAPE_%,R2
+Naive (last year),26767.73,47929.69,22.28,1.0
+Ridge Regression,53738.96,78779.31,52.26,0.99
+Gradient Boosted Trees,39102.41,71173.2,22.99,0.99

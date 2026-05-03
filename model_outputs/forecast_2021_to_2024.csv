@@ -1,0 +1,205 @@
+region,sector,ay_start,naive_predicted,ridge_predicted,gbt_predicted
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Private,2021,84929,65378,77031
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Public,2021,754887,738387,739584
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,SUC-LUC,2021,30279,10319,27880
+CAR - Cordillera Administrative Region,Private,2021,75717,62343,70913
+CAR - Cordillera Administrative Region,Public,2021,355909,343946,334225
+CAR - Cordillera Administrative Region,SUC-LUC,2021,4308,0,2743
+CARAGA - CARAGA,Private,2021,62018,50769,58622
+CARAGA - CARAGA,Public,2021,716835,707221,722345
+CARAGA - CARAGA,SUC-LUC,2021,1148,0,1133
+NCR - National Capital Region,Private,2021,619156,571410,516638
+NCR - National Capital Region,Public,2021,2025141,2027659,2026622
+NCR - National Capital Region,SUC-LUC,2021,16296,0,14852
+Region I - Ilocos Region,Private,2021,138645,124024,126170
+Region I - Ilocos Region,Public,2021,1139566,1126618,1148343
+Region I - Ilocos Region,SUC-LUC,2021,6243,0,4323
+Region II - Cagayan Valley,Private,2021,94774,84410,95005
+Region II - Cagayan Valley,Public,2021,817888,808796,800885
+Region II - Cagayan Valley,SUC-LUC,2021,660,0,828
+Region III - Central Luzon,Private,2021,424553,399744,363415
+Region III - Central Luzon,Public,2021,2393006,2395706,2494934
+Region III - Central Luzon,SUC-LUC,2021,9270,0,5124
+Region IV-A - CALABARZON,Private,2021,649577,623678,651196
+Region IV-A - CALABARZON,Public,2021,2991907,3013554,2977723
+Region IV-A - CALABARZON,SUC-LUC,2021,11506,7828,7563
+Region IV-B - MIMAROPA,Private,2021,65937,54244,62269
+Region IV-B - MIMAROPA,Public,2021,811249,801019,800286
+Region IV-B - MIMAROPA,SUC-LUC,2021,5577,0,3467
+Region IX - Zamboanga Peninsula,Private,2021,76332,62854,71863
+Region IX - Zamboanga Peninsula,Public,2021,947314,940108,937171
+Region IX - Zamboanga Peninsula,SUC-LUC,2021,4255,0,2953
+Region V - Bicol Region,Private,2021,139364,121090,126651
+Region V - Bicol Region,Public,2021,1522467,1509905,1459552
+Region V - Bicol Region,SUC-LUC,2021,3422,0,576
+Region VI - Western Visayas,Private,2021,193063,179942,172802
+Region VI - Western Visayas,Public,2021,1846904,1841549,1853787
+Region VI - Western Visayas,SUC-LUC,2021,3953,0,2743
+Region VII - Central Visayas,Private,2021,252931,235113,249522
+Region VII - Central Visayas,Public,2021,1752746,1748011,1755628
+Region VII - Central Visayas,SUC-LUC,2021,1464,0,828
+Region VIII - Eastern Visayas,Private,2021,73114,59558,70913
+Region VIII - Eastern Visayas,Public,2021,1187067,1175113,1173593
+Region VIII - Eastern Visayas,SUC-LUC,2021,5670,0,3467
+Region X - Northern Mindanao,Private,2021,148219,136406,146826
+Region X - Northern Mindanao,Public,2021,1131655,1127212,1147028
+Region X - Northern Mindanao,SUC-LUC,2021,10360,84,7925
+Region XI - Davao Region,Private,2021,149059,134409,142106
+Region XI - Davao Region,Public,2021,1136870,1132979,1148269
+Region XI - Davao Region,SUC-LUC,2021,146,0,828
+Region XII - Soccsksargen,Private,2021,127415,116654,123720
+Region XII - Soccsksargen,Public,2021,1125037,1120337,1148269
+Region XII - Soccsksargen,SUC-LUC,2021,4198,0,2743
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Private,2022,84929,45947,77031
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Public,2022,754887,721067,736994
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,SUC-LUC,2022,30279,0,27880
+CAR - Cordillera Administrative Region,Private,2022,75717,47187,62025
+CAR - Cordillera Administrative Region,Public,2022,355909,329766,322251
+CAR - Cordillera Administrative Region,SUC-LUC,2022,4308,0,2037
+CARAGA - CARAGA,Private,2022,62018,37084,58622
+CARAGA - CARAGA,Public,2022,716835,694668,728719
+CARAGA - CARAGA,SUC-LUC,2022,1148,0,1133
+NCR - National Capital Region,Private,2022,619156,532463,449877
+NCR - National Capital Region,Public,2022,2025141,2023502,2026622
+NCR - National Capital Region,SUC-LUC,2022,16296,0,8831
+Region I - Ilocos Region,Private,2022,138645,108005,126361
+Region I - Ilocos Region,Public,2022,1139566,1111757,1148343
+Region I - Ilocos Region,SUC-LUC,2022,6243,0,2851
+Region II - Cagayan Valley,Private,2022,94774,71337,95005
+Region II - Cagayan Valley,Public,2022,817888,796604,800885
+Region II - Cagayan Valley,SUC-LUC,2022,660,0,828
+Region III - Central Luzon,Private,2022,424553,376673,325117
+Region III - Central Luzon,Public,2022,2393006,2391676,2494934
+Region III - Central Luzon,SUC-LUC,2022,9270,0,3229
+Region IV-A - CALABARZON,Private,2022,649577,599853,666306
+Region IV-A - CALABARZON,Public,2022,2991907,3022638,2977723
+Region IV-A - CALABARZON,SUC-LUC,2022,11506,0,4241
+Region IV-B - MIMAROPA,Private,2022,65937,40251,58484
+Region IV-B - MIMAROPA,Public,2022,811249,788039,800286
+Region IV-B - MIMAROPA,SUC-LUC,2022,5577,0,2109
+Region IX - Zamboanga Peninsula,Private,2022,76332,47626,68627
+Region IX - Zamboanga Peninsula,Public,2022,947314,929221,937171
+Region IX - Zamboanga Peninsula,SUC-LUC,2022,4255,0,2212
+Region V - Bicol Region,Private,2022,139364,102542,126842
+Region V - Bicol Region,Public,2022,1522467,1495311,1459552
+Region V - Bicol Region,SUC-LUC,2022,3422,0,504
+Region VI - Western Visayas,Private,2022,193063,164961,153380
+Region VI - Western Visayas,Public,2022,1846904,1831943,1853787
+Region VI - Western Visayas,SUC-LUC,2022,3953,0,2037
+Region VII - Central Visayas,Private,2022,252931,216881,249522
+Region VII - Central Visayas,Public,2022,1752746,1738834,1755628
+Region VII - Central Visayas,SUC-LUC,2022,1464,0,828
+Region VIII - Eastern Visayas,Private,2022,73114,44276,62025
+Region VIII - Eastern Visayas,Public,2022,1187067,1160940,1173593
+Region VIII - Eastern Visayas,SUC-LUC,2022,5670,0,2109
+Region X - Northern Mindanao,Private,2022,148219,122331,146826
+Region X - Northern Mindanao,Public,2022,1131655,1118237,1147028
+Region X - Northern Mindanao,SUC-LUC,2022,10360,0,4603
+Region XI - Davao Region,Private,2022,149059,118369,142106
+Region XI - Davao Region,Public,2022,1136870,1124387,1148269
+Region XI - Davao Region,SUC-LUC,2022,146,0,828
+Region XII - Soccsksargen,Private,2022,127415,103306,123342
+Region XII - Soccsksargen,Public,2022,1125037,1111185,1148269
+Region XII - Soccsksargen,SUC-LUC,2022,4198,0,1930
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Private,2023,84929,26598,77031
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Public,2023,754887,703180,736994
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,SUC-LUC,2023,30279,0,27880
+CAR - Cordillera Administrative Region,Private,2023,75717,30798,58044
+CAR - Cordillera Administrative Region,Public,2023,355909,314052,314478
+CAR - Cordillera Administrative Region,SUC-LUC,2023,4308,0,2037
+CARAGA - CARAGA,Private,2023,62018,21712,58622
+CARAGA - CARAGA,Public,2023,716835,680080,736209
+CARAGA - CARAGA,SUC-LUC,2023,1148,0,1133
+NCR - National Capital Region,Private,2023,619156,499606,434378
+NCR - National Capital Region,Public,2023,2025141,2014726,2026622
+NCR - National Capital Region,SUC-LUC,2023,16296,0,5159
+Region I - Ilocos Region,Private,2023,138645,91018,126361
+Region I - Ilocos Region,Public,2023,1139566,1095572,1148343
+Region I - Ilocos Region,SUC-LUC,2023,6243,0,2217
+Region II - Cagayan Valley,Private,2023,94774,56389,95005
+Region II - Cagayan Valley,Public,2023,817888,782266,800885
+Region II - Cagayan Valley,SUC-LUC,2023,660,0,828
+Region III - Central Luzon,Private,2023,424553,354805,305371
+Region III - Central Luzon,Public,2023,2393006,2382987,2494934
+Region III - Central Luzon,SUC-LUC,2023,9270,0,2002
+Region IV-A - CALABARZON,Private,2023,649577,577463,666306
+Region IV-A - CALABARZON,Public,2023,2991907,3023027,2977723
+Region IV-A - CALABARZON,SUC-LUC,2023,11506,0,2769
+Region IV-B - MIMAROPA,Private,2023,65937,24666,58484
+Region IV-B - MIMAROPA,Public,2023,811249,773155,800286
+Region IV-B - MIMAROPA,SUC-LUC,2023,5577,0,2037
+Region IX - Zamboanga Peninsula,Private,2023,76332,31187,62976
+Region IX - Zamboanga Peninsula,Public,2023,947314,915786,937171
+Region IX - Zamboanga Peninsula,SUC-LUC,2023,4255,0,2140
+Region V - Bicol Region,Private,2023,139364,83805,126842
+Region V - Bicol Region,Public,2023,1522467,1479311,1459552
+Region V - Bicol Region,SUC-LUC,2023,3422,0,504
+Region VI - Western Visayas,Private,2023,193063,148692,153090
+Region VI - Western Visayas,Public,2023,1846904,1819395,1853787
+Region VI - Western Visayas,SUC-LUC,2023,3953,0,2037
+Region VII - Central Visayas,Private,2023,252931,198362,249522
+Region VII - Central Visayas,Public,2023,1752746,1726583,1755628
+Region VII - Central Visayas,SUC-LUC,2023,1464,0,828
+Region VIII - Eastern Visayas,Private,2023,73114,27799,58044
+Region VIII - Eastern Visayas,Public,2023,1187067,1145231,1173593
+Region VIII - Eastern Visayas,SUC-LUC,2023,5670,0,2037
+Region X - Northern Mindanao,Private,2023,148219,106689,146826
+Region X - Northern Mindanao,Public,2023,1131655,1106126,1147028
+Region X - Northern Mindanao,SUC-LUC,2023,10360,0,3617
+Region XI - Davao Region,Private,2023,149059,101368,142106
+Region XI - Davao Region,Public,2023,1136870,1112540,1148269
+Region XI - Davao Region,SUC-LUC,2023,146,0,828
+Region XII - Soccsksargen,Private,2023,127415,88168,123342
+Region XII - Soccsksargen,Public,2023,1125037,1098951,1148269
+Region XII - Soccsksargen,SUC-LUC,2023,4198,0,1930
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Private,2024,84929,7306,77031
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Public,2024,754887,684900,736994
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,SUC-LUC,2024,30279,0,27880
+CAR - Cordillera Administrative Region,Private,2024,75717,13555,58044
+CAR - Cordillera Administrative Region,Public,2024,355909,297276,298020
+CAR - Cordillera Administrative Region,SUC-LUC,2024,4308,0,2037
+CARAGA - CARAGA,Private,2024,62018,5173,58622
+CARAGA - CARAGA,Public,2024,716835,664083,736209
+CARAGA - CARAGA,SUC-LUC,2024,1148,0,1133
+NCR - National Capital Region,Private,2024,619156,470964,434378
+NCR - National Capital Region,Public,2024,2025141,2002752,2026622
+NCR - National Capital Region,SUC-LUC,2024,16296,0,3264
+Region I - Ilocos Region,Private,2024,138645,73361,126361
+Region I - Ilocos Region,Public,2024,1139566,1078470,1148343
+Region I - Ilocos Region,SUC-LUC,2024,6243,0,2145
+Region II - Cagayan Valley,Private,2024,94774,40144,95005
+Region II - Cagayan Valley,Public,2024,817888,766442,800885
+Region II - Cagayan Valley,SUC-LUC,2024,660,0,828
+Region III - Central Luzon,Private,2024,424553,333770,288913
+Region III - Central Luzon,Public,2024,2393006,2371074,2494934
+Region III - Central Luzon,SUC-LUC,2024,9270,0,1930
+Region IV-A - CALABARZON,Private,2024,649577,556066,666306
+Region IV-A - CALABARZON,Public,2024,2991907,3017397,2977723
+Region IV-A - CALABARZON,SUC-LUC,2024,11506,0,2063
+Region IV-B - MIMAROPA,Private,2024,65937,7980,58484
+Region IV-B - MIMAROPA,Public,2024,811249,756954,800286
+Region IV-B - MIMAROPA,SUC-LUC,2024,5577,0,2037
+Region IX - Zamboanga Peninsula,Private,2024,76332,13909,58994
+Region IX - Zamboanga Peninsula,Public,2024,947314,900588,937171
+Region IX - Zamboanga Peninsula,SUC-LUC,2024,4255,0,2140
+Region V - Bicol Region,Private,2024,139364,64937,126842
+Region V - Bicol Region,Public,2024,1522467,1462337,1459552
+Region V - Bicol Region,SUC-LUC,2024,3422,0,504
+Region VI - Western Visayas,Private,2024,193063,131532,153090
+Region VI - Western Visayas,Public,2024,1846904,1804811,1853787
+Region VI - Western Visayas,SUC-LUC,2024,3953,0,2037
+Region VII - Central Visayas,Private,2024,252931,179645,249522
+Region VII - Central Visayas,Public,2024,1752746,1712204,1755628
+Region VII - Central Visayas,SUC-LUC,2024,1464,0,828
+Region VIII - Eastern Visayas,Private,2024,73114,10495,58044
+Region VIII - Eastern Visayas,Public,2024,1187067,1128459,1173593
+Region VIII - Eastern Visayas,SUC-LUC,2024,5670,0,2037
+Region X - Northern Mindanao,Private,2024,148219,89963,146826
+Region X - Northern Mindanao,Public,2024,1131655,1091844,1147028
+Region X - Northern Mindanao,SUC-LUC,2024,10360,0,2497
+Region XI - Davao Region,Private,2024,149059,83701,142106
+Region XI - Davao Region,Public,2024,1136870,1098441,1148269
+Region XI - Davao Region,SUC-LUC,2024,146,0,828
+Region XII - Soccsksargen,Private,2024,127415,71791,123342
+Region XII - Soccsksargen,Public,2024,1125037,1084584,1148269
+Region XII - Soccsksargen,SUC-LUC,2024,4198,0,1930

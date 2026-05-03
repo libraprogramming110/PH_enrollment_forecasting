@@ -1,0 +1,50 @@
+region,sector,actual_total_students
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Private,136144
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,Public,919666
+BARMM - Bangsamoro Autonomous Region in Muslim Mindanao,SUC-LUC,28320
+CAR - Cordillera Administrative Region,Private,69477
+CAR - Cordillera Administrative Region,Public,345523
+CAR - Cordillera Administrative Region,SUC-LUC,2670
+CARAGA - CARAGA,Private,64093
+CARAGA - CARAGA,Public,686161
+CARAGA - CARAGA,SUC-LUC,526
+NCR - National Capital Region,Private,724784
+NCR - National Capital Region,Public,2031877
+NCR - National Capital Region,SUC-LUC,6810
+Region I - Ilocos Region,Private,135020
+Region I - Ilocos Region,Public,1058957
+Region I - Ilocos Region,SUC-LUC,4314
+Region II - Cagayan Valley,Private,88616
+Region II - Cagayan Valley,Public,778723
+Region III - Central Luzon,Private,488093
+Region III - Central Luzon,Public,2413229
+Region III - Central Luzon,SUC-LUC,7195
+Region IV-A - CALABARZON,Private,771847
+Region IV-A - CALABARZON,Public,3094057
+Region IV-A - CALABARZON,SUC-LUC,5857
+Region IV-B - MIMAROPA,Private,65364
+Region IV-B - MIMAROPA,Public,795865
+Region IV-B - MIMAROPA,SUC-LUC,3113
+Region IX - Zamboanga Peninsula,Private,80012
+Region IX - Zamboanga Peninsula,Public,938189
+Region IX - Zamboanga Peninsula,SUC-LUC,3196
+Region V - Bicol Region,Private,146331
+Region V - Bicol Region,Public,1522912
+Region V - Bicol Region,SUC-LUC,2760
+Region VI - Western Visayas,Private,194815
+Region VI - Western Visayas,Public,1736432
+Region VI - Western Visayas,SUC-LUC,3145
+Region VII - Central Visayas,Private,280745
+Region VII - Central Visayas,Public,1765407
+Region VII - Central Visayas,SUC-LUC,1311
+Region VIII - Eastern Visayas,Private,71299
+Region VIII - Eastern Visayas,Public,1099780
+Region VIII - Eastern Visayas,SUC-LUC,3934
+Region X - Northern Mindanao,Private,160865
+Region X - Northern Mindanao,Public,1136534
+Region X - Northern Mindanao,SUC-LUC,5788
+Region XI - Davao Region,Private,158703
+Region XI - Davao Region,Public,1186639
+Region XII - Soccsksargen,Private,114043
+Region XII - Soccsksargen,Public,1033760
+Region XII - Soccsksargen,SUC-LUC,2426

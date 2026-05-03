@@ -1,0 +1,66 @@
+================================================================
+  modeling plain-language summary  (paraphrase into manuscript 7d / 8)
+================================================================
+
+experimental setup
+  - dataset       : enrollment_cleaned.csv (509 rows after
+                    dropping sy 2010-11 due to missing lag features)
+  - train period  : sy 2011-12 to sy 2018-19 (407 rows)
+  - test  period  : sy 2019-20 to sy 2020-21 (102 rows)
+  - split type    : time-based (no random shuffle - prevents leakage)
+  - target (y)    : total_students per region+sector+year
+  - features (x)  : 6 numeric (ay_start, shs_available, 4 prev_* lags)
+                  + 20 one-hot columns (17 regions + 3 sectors)
+
+algorithms compared
+  1. naive baseline   - prediction = prev_total_students (last year)
+  2. ridge regression - linear with l2 penalty (alpha=1.0)
+  3. gradient boosted trees - 200 estimators, depth 3, lr 0.05
+  4. svr (rbf kernel) - c=10, scaled features
+
+test-set results
+                              MAE       RMSE   MAPE_%    R2
+Model                                                      
+Naive (last year)        15573.30   38555.42    13.11  1.00
+Ridge Regression         27251.26   54016.29    86.22  0.99
+Gradient Boosted Trees   31695.58   59838.10    45.66  0.99
+SVR (RBF kernel)        485990.14  807617.38  2429.66 -0.32
+
+winner (lowest mae): Naive (last year)
+
+feature importance
+  top 3 gbt features:
+              feature  importance
+  prev_total_students    0.906052
+        prev_total_hs    0.066160
+prev_total_elementary    0.025969
+
+  top 3 ridge coefficients (by absolute value):
+                                                       feature   coefficient
+                                                 shs_available  30171.073444
+                               region_Region IV-A - CALABARZON  12169.329971
+region_BARMM - Bangsamoro Autonomous Region in Muslim Mindanao -10606.706828
+
+  insight: the prev_* lag features dominate, confirming what eda
+  already showed (correlation r ~ 0.99). the model is essentially
+  learning year-over-year persistence with regional/sectoral
+  adjustments.
+
+rolling forecast (national totals, per model)
+  year     naive (last year)   ridge regression   gbt
+  2021-22       26,150,006   (see csv)         (see csv)
+  2024-25       26,150,006        24,076,908        25,621,341
+
+  svr is excluded from the forecast because it failed on the test
+  set (r^2 < 0). all 3 remaining models will be compared against
+  the real deped 2024-25 figures in the assess stage.
+
+notes on confusion matrix
+  this is a regression problem - confusion matrices apply only to
+  classification. per-class accuracy is replaced with the standard
+  regression diagnostics: mae, rmse, mape, r-squared, plus the
+  predicted-vs-actual scatter and residual plot in
+  predicted_vs_actual_test.png.
+
+next stage (semma - assess): enrollment_validation.py
+================================================================

@@ -1,0 +1,72 @@
+FINAL PROJECT INSTRUCTIONS
+This final project requires you to apply your data analytics and machine learning skills to an open-source dataset of your choosing. Your group, consisting of 3 members, will do the following:
+1.	Identify a research question (problem) that can be addressed using data analytics and machine learning.
+2.	Locate an appropriate, publicly available open-source dataset.
+3.	Perform data cleaning and explanatory data analysis, including correlation analysis
+4.	Develop, train, and evaluate at least one machine learning model.
+5.	Critically interpret and communicate your findings in a structured, written manuscript and an oral presentation.
+
+DELIVERABLES
+Deliverable	Due Date	Format	Weight
+Final Manuscript	To be scheduled	Word and PDF	60%
+Final Presentation		Oral Presentation (Slides)	40%
+
+MANUSCRIPT (RESEARCH PAPER) 
+
+Format:
+•	Paper size: Short
+•	Pages: 10-18 
+•	Font: Arial or Times New Roman
+•	Font size: 12 
+•	Paragraph Space: Single space (1.0)
+
+Content:
+1.	Title: Clear, concise, and descriptive of your project.
+2.	Abstract: A single paragraph (200-300 words) summarizing the background, objective, methodology, key results, and main conclusion.
+3.	Keywords: at most five (5) keywords.
+4.	Introduction/Background and Motivation: Introduce the topic, its importance, and the real-world problem you are addressing.
+5.	Literature Review/Related Work: Briefly discuss existing work, identifying a gap or a specific question your project aims to answer.
+6.	Research Questions: Clearly state the specific goal of your analysis and the hypothesis(es) you are testing.
+7.	Materials and Methods
+Subsections:
+a.	Data Source and Acquisition:
+o	Identify the open-source data source (e.g., Kaggle, government open data portals, etc.).
+o	Provide a brief description, including the dataset's size, time frame, and key features.
+b.	Exploratory Data Analysis (EDA):
+o	Discuss and visualize initial data insights, for instance, the percentage of males and females in the dataset.
+o	Present correlations analysis between variables
+o	Identify data quality issues, such as missing values, outliers, inconsistencies (if any).
+c.	Data Preprocessing
+o	Detail all steps taken to clean and prepare the data (e.g., handling missing data, encoding categorical variables, scaling, dimensionality reduction). You detail here how you resolve the data quality issues encountered in your dataset.
+d.	Machine Learning Model(s):
+o	Justify your choice of machine learning task (e.g., classification, regression, clustering). 
+o	Describe the specific machine learning model you utilized (e.g., Random Forest, XG Boost, Neural Network), including its formula.
+o	Describe the experimental setup (e.g., train/test split, cross-validation, hyperparameter tuning method).
+8.	Results
+•	Model Performance:
+o	Present the quantitative results of your machine learning model(s).
+o	Include a confusion matrix to assess the prediction accuracy.
+•	Model Interpretation (Utilization):
+o	Provide insights into why the model performed the way it did by discussing feature importance or model interpretability (e.g., SHAP, LIME, or coefficient analysis).
+9.	Discussion and Conclusion
+•	Interpretation of Findings: Discuss the results in the context of your original research question. What did you learn about the data and the problem?
+•	Conclusion: Briefly summarize the project's key contribution and final takeaway.
+•	Limitations: Critically evaluate the limitations of your data, methodology, and model.
+•	Future Work: Suggest directions for future research or extensions of the project.
+10.	References
+•	Cite all sources used (data source(s) and papers) using APA citation style.
+11.	Appendix
+•	Include a link or a clear reference to your code.
+
+FINAL PRESENTATION
+The presentation will be a 10-minute summary of your project, followed by a 5-minute Q&A session.
+
+Presentation Content:
+1.	Title Slide: Project Title, Your Name, Date.
+2.	Introduction: Brief discussion about the Problem/Motivation, Research Question.
+3.	Data: Source, key variables, and data size.
+4.	Methodology: Overview of EDA, Preprocessing, and Model Selection (briefly).
+5.	Key Results: Focus on the most important quantitative and visual results.
+6.	Insights and Discussion: What are the key takeaways and real-world implications of your findings?
+7.	Limitations & Future Work.
+

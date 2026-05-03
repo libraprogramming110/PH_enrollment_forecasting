@@ -1,0 +1,31 @@
+# python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# jupyter notebook checkpoints (in case anyone opens these in jupyter)
+.ipynb_checkpoints/
+
+# os-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor / ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# python build artifacts
+build/
+dist/
+*.egg-info/

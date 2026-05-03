@@ -1,0 +1,57 @@
+================================================================
+  eda plain-language summary  (paraphrase into manuscript 7b)
+================================================================
+
+dataset shape
+  - rows   : 560 (region+sector+year combinations)
+  - years  : 2010 to 2020
+  - regions: 17
+  - sectors: Private, Public, SUC-LUC
+
+national trend
+  - total enrollment in 2010-2011: 22,783,260 students
+  - total enrollment in 2020-2021: 26,150,006 students
+  - net change over the period: +14.8%
+  - the 2020 figure shows a visible dip vs. 2019 (covid-19
+    school-year disruption); this anomaly will affect any model
+    trained on years that include 2020.
+
+structural break
+  - senior high school (shs) enrollment is zero before 2016
+    because the k-12 reform introduced grades 11-12 starting
+    sy 2016-2017. the shs_available flag captures this break.
+
+sector share (across all years)
+     - Public: 86.0%
+     - Private: 13.7%
+     - SUC-LUC: 0.4%
+  - public sector dominates total enrollment; private and
+    suc-luc are an order of magnitude smaller.
+
+top 3 regions by cumulative enrollment
+     - Region IV-A - CALABARZON: 37,218,246 total students (cumulative)
+     - NCR - National Capital Region: 29,784,758 total students (cumulative)
+     - Region III - Central Luzon: 29,253,704 total students (cumulative)
+  - these large urban regions appear as outliers in the
+    distribution but are legitimate data, not errors.
+
+strongest correlations with total_students
+     - prev_total_students: r = 0.999
+     - prev_total_elementary: r = 0.993
+     - total_elementary: r = 0.992
+     - total_hs: r = 0.991
+  - prev_total_students has near-perfect correlation (~0.99),
+    indicating strong year-over-year persistence. this is why
+    lag features are the core predictors in the modeling stage.
+
+key takeaways for modeling
+  1. use lag (prev_*) features as primary predictors.
+  2. include shs_available flag so models can absorb the
+     2016 k-12 structural break cleanly.
+  3. treat 2020 as an anomalous year - keep it in training
+     but flag it as a known source of forecast error.
+  4. model per region+sector context; absolute scale varies
+     hugely between ncr and smaller regions.
+
+next stage (semma - model): enrollment_modeling.py
+================================================================

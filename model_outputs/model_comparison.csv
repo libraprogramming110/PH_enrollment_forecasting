@@ -1,0 +1,5 @@
+Model,MAE,RMSE,MAPE_%,R2
+Naive (last year),15573.3,38555.42,13.11,1.0
+Ridge Regression,27251.26,54016.29,86.22,0.99
+Gradient Boosted Trees,31695.58,59838.1,45.66,0.99
+SVR (RBF kernel),485990.14,807617.38,2429.66,-0.32
