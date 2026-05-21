@@ -2,6 +2,10 @@
 
 This document is a guide for the writers and project owners taking over the manuscript and presentation. It explains what the technical pipeline does, how to use the outputs, and which numbers go in which manuscript section.
 
+Contributors:
+Aliyah Salmorin
+Jan Marvin Polintan
+
 ---
 
 ## 1. Project Summary
